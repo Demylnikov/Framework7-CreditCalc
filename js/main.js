@@ -49,10 +49,10 @@ function calculateCredit() {
 
   mainView.router.loadPage('breakdown.html');
 
-  /*This is a shitty workaround. A list needs to be created after the breakdown page has loaded,
-  otherwise the function createList() will not find any elements on breakdown page since it hasn't
-  loaded yet*/
-  setTimeout(function() {createList(array, kreditdauerM, kreditdauerJ)}, 20);
+  $$(document).on('page:init', '.page[data-page="breakdown"]', function (e) {
+    console.log("Page loaded and initialized");
+    createList(array,kreditdauerM,kreditdauerJ);
+  })
 
 }
 
