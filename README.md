@@ -6,7 +6,7 @@ Simply clone this repository and you will be able to get to work right away, no 
 
 ## Screenshots
 ### iOS flat design
-<img src="https://img-fotki.yandex.ru/get/361460/132030196.41/0_1a69d0_5f655708_orig" width="500">
+<img src="http://i.imgur.com/jt1AEtP.jpg" width="600">
 
 ### Android material design
-<img src="https://img-fotki.yandex.ru/get/229553/132030196.41/0_1a69d1_d638c526_orig" width="500">
+<img src="http://i.imgur.com/769TevT.jpg" width="600">
